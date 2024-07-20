@@ -1,8 +1,8 @@
 .background {
     display: flex;
     width: 87%;
-    height: 500px;
-    background: linear-gradient(to bottom, red, red, red, red);
+    height: 600px;
+    background:  rgb(0, 157, 255);
     border-radius: 9px;
     margin: 0 auto;
     flex-direction: column; 
@@ -28,7 +28,7 @@ font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
  z-index: 3;
- margin-top: 160px;
+ margin-top: 220px;
  margin-bottom:0px ;
  text-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
 }
@@ -39,12 +39,12 @@ font-style: italic;
     width: 140px;
     border-radius: 50%;
     background-color: yellow;
-    z-index: 1;
-    left: calc(87% - 70px); /* Center the moon horizontally */
-    bottom: 330px; /* Adjust this value as needed to position the moon vertically */
+   
+    left: calc(87% - 70px); 
+    bottom: 430px;  
 z-index: 2;
 animation: upDown 2s ease-in-out infinite;
-box-shadow: 0 0 20px rgba(0, 60, 255, 0.8);
+box-shadow: 0 0 10px rgba(0, 60, 255, 0.8);
 }
 
 @keyframes upDown {
@@ -63,10 +63,12 @@ box-shadow: 0 0 20px rgba(0, 60, 255, 0.8);
     position: absolute;
     width: 1000px;
     height: 270px;
-    background-color: rgb(227, 114, 72);
+    /* background-color: rgb(227, 114, 72); */
+
+    background-color: rgb(34, 86, 24);
     z-index:1;
     border-radius: 50%;
-    top: 350px;
+    top: 450px;
      right: -300px;
 
 }
@@ -74,25 +76,54 @@ box-shadow: 0 0 20px rgba(0, 60, 255, 0.8);
     position: absolute;
 width: 1300px;
 height: 370px;
-background-color: rgb(212, 102, 61);
+/* background-color: rgb(212, 102, 61); */
+
+background-color: rgb(46, 129, 27);
+
 background-blend-mode: overlay;
 z-index: 2;
 border-radius: 50%;
-top: 395px;
+top: 495px;
  right: 146px;
 }
 .sand2{
 position: absolute;
 width: 1300px;
 height: 170px;
-background-color: rgb(141, 77, 54);
+/* background-color: rgb(141, 77, 54); */
+
+background-color: rgb(40, 105, 29);
 z-index: 3;
 border-radius: 50%;
-top: 430px;
+top: 530px;
  right: -300px;
 
 }
 
+.sp{
+    width: 200px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.2);  
+    border-radius: 25px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);  
+    border: 1px solid rgba(16, 31, 199, 0.3);  
+    margin-top: 7px;
+    padding: 10px 20px;
+    color: white;  
+    font-size: 16px;  
+    font-weight: bold;  
+    cursor: pointer; 
+    transition: all 0.3s ease;
+    margin: 7px;
+}
 
-
- 
+.sp:hover {
+    background: rgba(255, 255, 255, 0.3); /* Slightly more opaque on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Slightly stronger shadow on hover */
+  }
+ .frex{
+    display: flex; 
+    justify-content: center;
+ }
