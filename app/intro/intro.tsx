@@ -14,7 +14,9 @@ const Intro = () => {
 
 
       <div>
-        <h1 className={styles.header}>An adobe to thy robust work</h1>
+        <h1 className={styles.header}>AN ADOBE TO THY ROBUST WORK</h1><br />
+    <center> <p  className={styles.text}>We build sustainable multi revenue YouTube brands
+    </p></center>   
       </div>
       <div className={styles.sand0}></div>
       <div className={styles.sand1}></div>

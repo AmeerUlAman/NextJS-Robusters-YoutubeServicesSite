@@ -2,7 +2,7 @@
     display: flex;
     width: 87%;
     height: 500px;
-    background: linear-gradient(to bottom, red, red, red, red, black);
+    background: linear-gradient(to bottom, red, red, red, red);
     border-radius: 9px;
     margin: 0 auto;
     flex-direction: column; 
@@ -11,14 +11,26 @@
     overflow: hidden; /* This will prevent the moon from overflowing */
  z-index: 1;
 }
+.text{
+     margin-top: 0px;
+font-size: x-large;
+font-style: italic;
+    z-index: 3;  
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    
+}
 
 .header {
-    font-size: 57px;
+    font-size: 43px;
     font-weight: bolder;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
  z-index: 3;
- margin-top: 150px;
+ margin-top: 160px;
+ margin-bottom:0px ;
+ text-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
 }
 
 .moon {
@@ -31,7 +43,22 @@
     left: calc(87% - 70px); /* Center the moon horizontally */
     bottom: 330px; /* Adjust this value as needed to position the moon vertically */
 z-index: 2;
+animation: upDown 2s ease-in-out infinite;
+box-shadow: 0 0 20px rgba(0, 60, 255, 0.8);
 }
+
+@keyframes upDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-7px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
 .sand0{
     position: absolute;
     width: 1000px;
@@ -65,3 +92,7 @@ top: 430px;
  right: -300px;
 
 }
+
+
+
+ 
