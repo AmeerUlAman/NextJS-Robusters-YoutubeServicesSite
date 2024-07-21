@@ -3,7 +3,7 @@
     width: 87%;
     height: 600px;
     /* background:  rgb(0, 157, 255);*/ 
-     background: linear-gradient(to top right, blue, orange);  
+     background: linear-gradient(to top right, rgb(38, 0, 255), rgb(0, 89, 255),yellow);  
     border-radius: 9px;
     margin: 0 auto;
     flex-direction: column; 
@@ -20,6 +20,7 @@ font-style: italic;
     color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
+
     
 }
 
@@ -31,7 +32,7 @@ font-style: italic;
  z-index: 7;
  margin-top: 220px;
  margin-bottom:0px ;
- text-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
+ text-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
 }
 
 .moon {
@@ -39,7 +40,7 @@ font-style: italic;
     height: 140px;
     width: 140px;
     border-radius: 50%;
-    background-color: rgb(231, 223, 80);
+    background : linear-gradient(to bottom, yellow, red); 
    
     left: calc(87% - 70px); 
     bottom: 430px;  
@@ -75,7 +76,7 @@ box-shadow: 0 0 10px rgba(0, 60, 255, 0.8);
 }
 .sand1{
     position: absolute;
-width: 1300px;
+width: 1500px;
 height: 370px;
 /* background-color: rgb(212, 102, 61); */
 
@@ -98,7 +99,7 @@ z-index: 3;
 border-radius: 50%;
 top: 530px;
  right: -300px;
-
+ 
 }
 
 .sp{
@@ -146,16 +147,6 @@ left: -250px;
   z-index: -1;
 }
 
-.triangle1::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -510px; /* Adjusted to match the left border width */
-  width: 1020px; /* Double the border-left width to cover the entire area */
-  height: 650px; /* Match the border-bottom height */
-  background: linear-gradient(to top right, orange, blue);
-  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-}
 
 .triangle2 {
   position: absolute;
@@ -171,4 +162,15 @@ left: 30px;
   border-right: 410px solid transparent;
   border-bottom: 450px solid #ac977e;
   z-index: -1;
+}
+.mountain {
+  position: absolute;
+  display: flex;
+  background: url('introbg.png') no-repeat center center;
+  background-size: cover;
+  top: 200px;
+  left: -100px; /* Assuming you want it to stretch across the full width */
+  width: 100%;
+  height: 350px; /* Set the desired height */
+  z-index: -1; /* Adjusted z-index */
 }

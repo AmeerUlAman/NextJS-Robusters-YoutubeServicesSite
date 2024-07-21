@@ -15,12 +15,14 @@ const Intro = () => {
 
       <div>
 
-      <div className={styles.triangle1}></div>
-      <div className={styles.triangle2}></div>
+      {/* <div className={styles.triangle1}></div>
+      <div className={styles.triangle2}></div> */}
+
+
       <div className={styles.sand0}></div>
       <div className={styles.sand1}></div>
       <div className={styles.sand2}></div>
-
+<div className={styles.mountain}></div>
       <h1 className={styles.header}>AN ADOBE TO THY ROBUST WORK</h1><br />
     <center> <p  className={styles.text}>We build sustainable multi revenue YouTube brands
     </p></center>   
