@@ -3,7 +3,9 @@
     width: 87%;
     height: 600px;
     /* background:  rgb(0, 157, 255);*/ 
-     background: linear-gradient(to top right, rgb(38, 0, 255), rgb(0, 89, 255),yellow);  
+     /* background: linear-gradient(to top right, rgb(38, 0, 255), rgb(0, 89, 255),yellow);   */
+     background-color: red;
+
     border-radius: 9px;
     margin: 0 auto;
     flex-direction: column; 
@@ -41,7 +43,7 @@ font-style: italic;
     height: 140px;
     width: 140px;
     border-radius: 50%;
-    background : linear-gradient(to bottom, yellow, red); 
+    background : linear-gradient(to bottom, rgb(255, 255, 255), red,red); 
    
     left: calc(87% - 70px); 
     bottom: 430px;  
@@ -68,7 +70,10 @@ box-shadow: 0 0 10px rgba(0, 60, 255, 0.8);
     height: 270px;
     /* background-color: rgb(227, 114, 72); */
 
-    background-color: rgb(34, 86, 24);
+    /* background-color: rgb(34, 86, 24); */
+background-color: rgb(37, 36, 36);
+border: 3px solid white;
+
     z-index:2;
     border-radius: 50%;
     top: 450px;
@@ -81,21 +86,25 @@ width: 1500px;
 height: 370px;
 /* background-color: rgb(212, 102, 61); */
 
-background-color: rgb(46, 129, 27);
+/* background-color: rgb(46, 129, 27); */
 
-background-blend-mode: overlay;
+background-color: rgb(51, 48, 48);
+border: 3px dashed white;
 z-index: 2;
 border-radius: 50%;
 top: 495px;
  right: 146px;
 }
+
 .sand2{
 position: absolute;
 width: 1300px;
 height: 170px;
 /* background-color: rgb(141, 77, 54); */
+/* background-color: rgb(40, 105, 29); */
+background-color: rgb(0, 0, 0);
+border: 3px solid #ffffff;
 
-background-color: rgb(40, 105, 29);
 z-index: 3;
 border-radius: 50%;
 top: 530px;
@@ -132,38 +141,7 @@ top: 530px;
     justify-content: center;
     z-index: 4;
  }
- .triangle1 {
-  position: absolute;
-  
-  display: flex;
-  width: 0;
-  height: 0;
-  
-  top: 90px;
-left: -250px;
-  overflow: hidden; 
-  border-left: 510px solid transparent;
-  border-right: 510px solid transparent;
-  border-bottom: 650px solid #9d7c55; 
-  z-index: -1;
-}
-
-
-.triangle2 {
-  position: absolute;
-  
-  display: flex;
-  width: 0;
-  height: 0;
-  
-  top: 199px;
-left: 30px;
-  overflow: hidden; 
-  border-left: 410px solid transparent;
-  border-right: 410px solid transparent;
-  border-bottom: 450px solid #ac977e;
-  z-index: -1;
-}
+ 
 .mountain {
   position: absolute;
   display: flex;
@@ -174,5 +152,7 @@ left: 30px;
   width: 100%;
   height: 350px; /* Set the desired height */
   z-index: -1; /* Adjusted z-index */
-
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+ 
 }
