@@ -1,4 +1,4 @@
- import ProjectCard from './ProjectCard';
+ import ProjectCard from './TierCard';
  
 
  interface Project {
@@ -28,11 +28,11 @@
       } 
   ];
   
-  const Portfolio: React.FC = () => {
+  const Tier: React.FC = () => {
     return (
       <div>
        
-        <center> <h1>My Portfolio</h1></center>
+        <center> <h1>Video Tier's</h1></center>
        
         <div>
           {projects.map((project, index) => (
@@ -49,4 +49,4 @@
     );
   };
   
-  export default Portfolio;
+  export default Tier;

@@ -9,7 +9,7 @@
     width: 70%;
     color: white;
     background-color: rgb(0, 0, 0);
-
+height:250px;
   }
   
   .reverse {
@@ -22,9 +22,9 @@
   .image {
     width: 49%;
     height: auto;
-    height: 300px;
     position: relative;
     margin: 11px;
+    object-fit: cover;
   }
   .image iframe{
     border-radius: 10px;

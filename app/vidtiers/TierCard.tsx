@@ -1,6 +1,6 @@
 // components/ProjectCard.tsx
 import Image from 'next/image';
-import styles from './ProjectCard.module.css';
+import styles from './TierCard.module.css';
 
 interface ProjectCardProps {
   title: string;
@@ -10,7 +10,7 @@ interface ProjectCardProps {
   reverse: boolean;
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, webUrl,   reverse }) => {
+const TierCard: React.FC<ProjectCardProps> = ({ title, description, webUrl,   reverse }) => {
   return (
     <div className={`${styles.card} ${reverse ? styles.reverse : ''}`}>
       <div className={styles.image}>
@@ -25,4 +25,4 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, webUrl,  
   );
 };
 
-export default ProjectCard;
+export default TierCard;
