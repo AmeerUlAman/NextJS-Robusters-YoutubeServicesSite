@@ -8,15 +8,15 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
     width: 70%;
     color: white;
-    background: linear-gradient(to bottom left,rgb(0, 0, 0),rgb(255, 0, 0));
+    background: linear-gradient(to bottom left,rgb(0, 0, 0),rgb(255, 255, 255));
    
 height:250px;
   }
   
   .reverse {
     flex-direction: row-reverse;
-    background: linear-gradient(to bottom left,rgb(255, 0, 0),rgb(0, 0, 0));
- 
+    background: linear-gradient(to bottom left,rgb(0, 0, 0),rgb(255, 255, 255));
+   
   }
   
   

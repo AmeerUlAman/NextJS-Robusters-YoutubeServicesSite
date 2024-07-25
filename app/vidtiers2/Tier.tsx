@@ -49,7 +49,7 @@
               webUrl={project.webUrl} 
               but={project.but}
               butid={project.butid}
-              reverse={index % 2 === 1}
+              // reverse={index % 2 === 1}
             />
           ))}
         </div>
