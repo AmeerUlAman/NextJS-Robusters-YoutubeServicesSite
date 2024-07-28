@@ -1,0 +1,21 @@
+.cbox{
+display: flex;
+align-items: stretch; 
+flex-wrap: wrap;
+
+
+justify-content: center;
+
+}
+.ser{
+font-size: 60px;
+padding: 37px;
+color: white;
+
+}
+.bg{
+    background:linear-gradient(to bottom right,black,black,black,rgb(166, 11, 11),red ) ;
+width: 89%;
+margin: 60px auto; 
+border-radius: 17px;
+}
