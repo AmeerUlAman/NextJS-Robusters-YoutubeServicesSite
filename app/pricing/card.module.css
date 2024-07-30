@@ -1,0 +1,103 @@
+.bg {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-start; */
+
+     
+    width: 28vw; 
+  height: 80vh;
+    background:linear-gradient(to bottom,red , black,black);  
+ /* background: black; */
+   margin: 5px;
+   padding: 15px;
+   border-radius: 17px; 
+ 
+
+  }
+  
+
+.nin{
+    height: 70%;
+     
+}
+.ten{
+    height: 13%;
+
+}
+
+  .title {
+    /* Add other styles as needed */
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    margin-bottom: 3vh;
+    filter: drop-shadow(2px 4px 2px  rgb(0, 0, 0));
+  }
+  .ffrex{
+
+    color: white;
+    font-size:larger;
+    margin: 0px 17px 10px;
+    font-weight: bold;
+  }
+  .inp{ 
+
+margin-left: 10px;
+width: 30%;
+border-radius: 7px;
+border: 2px solid white;
+color: white;
+/* background-color: rgb(34, 34, 34);   */
+background-color: rgb(202, 139, 21);
+font-size: larger;
+text-align: center;
+font-weight: bold;
+}
+.rb{
+margin-left: 15px;
+
+}
+
+.pric{
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: xx-large;
+font-weight: bolder;
+}
+.sub {
+    position: relative;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: rgb(255, 0, 0);
+    border-radius: 14px;
+    padding: 14px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.7); /* Glow effect */
+    overflow: hidden;
+    cursor: pointer;
+    outline: none;
+    margin-top: 10px;
+
+
+ 
+}
+.sub:hover{
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);  
+   background-color: rgb(255, 0, 0);
+   color: rgb(255, 255, 255);
+}
+ .war{
+margin: 0px 17px 17px;
+color: white;
+font-size: small;
+font-style: italic;
+ }
+
+ .tick {
+    font-size: large;
+    color: rgb(255, 255, 255);
+   margin-left: 15px;
+   padding: 7px;
+}

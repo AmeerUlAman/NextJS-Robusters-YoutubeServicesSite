@@ -1,0 +1,10 @@
+.frex{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+margin: 0px auto;
+
+justify-content: center;
+align-items: stretch;
+}
+ 
