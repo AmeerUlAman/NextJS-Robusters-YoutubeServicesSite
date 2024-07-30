@@ -36,8 +36,7 @@
   const Tier: React.FC = () => {
     return (
       <div>
-       
-        <center> <h1>Video Tier's</h1></center>
+ 
        
         <div>
           {projects.map((project, index) => (

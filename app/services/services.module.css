@@ -14,8 +14,8 @@ color: white;
 
 }
 .bg{
-    background:linear-gradient(to bottom right,black,black,black,rgb(166, 11, 11),red ) ;
-width: 89%;
+    background:linear-gradient(to bottom right,rgb(49, 49, 49),rgb(42, 42, 42),black,rgb(166, 11, 11),red ) ;
+width: 95%;
 margin: 60px auto; 
 border-radius: 17px;
 }

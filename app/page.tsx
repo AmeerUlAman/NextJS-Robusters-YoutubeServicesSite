@@ -1,19 +1,24 @@
 import Image from "next/image";
-import Intro from "./intro/intro";
-import Intro2 from "./demo/intro2";
-import Intro3 from "./demo2/intro3";
-import Intro4 from "./demo4/intro4";
-import Intro5 from "./demo5/intro5"
+ import Intro3 from "./demo2/intro3";
+import Hero from "./hero/hero";
+import Vidtier from "./vidtiers/vidtier";
+import Nav from "./nav/nav";
+import Services from "./services/services";
+import Pricing from "./pricing/pricing";
 
 export default function Home() {
   return (
 <div>
-  
-<Intro/>
-<Intro2/>
-<Intro3/>
-<Intro4/>
-<Intro5/>
+<Nav/>
+  <center>
+     <Image   width={1920}   height={1080}   quality={100} alt="LOGO"  src={'/logoorg.png'}  className='logo' />
+</center>
+ <Hero/>
+ 
+
+<Vidtier/>
+<Services/>
+<Pricing/>
 </div>
   );
 }

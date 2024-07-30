@@ -1,6 +1,6 @@
 .background{
 width: 87%;
-height: 500px;
+height: 75vh;
 margin: 0 auto;
 border-radius: 14px;
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
@@ -13,7 +13,7 @@ position: relative;
 z-index: 1;
 align-items: center;
 background: linear-gradient(to bottom left,rgb(0, 0, 0),rgb(255, 0, 0));
-margin-top: 170px;
+ 
 }
 
  .text1{
@@ -33,15 +33,16 @@ margin-top: 170px;
     margin: 0px;
  }
 .im2{ 
-       background:url('cam2.webp');
-       height: 300px;  
+       background:url('subs.webp');
+       height: 150px;  
     width: 360px;
     background-size: cover; 
-    background-repeat: no-repeat;
+ 
+    object-fit: cover;
     position: absolute;
-     top: 279px;
+     top: 340px;
      left: 0px;
-     rotate: 9deg;
+     rotate: 45deg;
      z-index: 3;
      animation: upDown 2s ease-in-out infinite;
 
@@ -61,44 +62,44 @@ top: -70px;
 }
 .im1{
 
-    background:url('inst.png');
+    background:url('youshort.png');
     height: 300px;  
-    width: 500px; 
+    width: 300px; 
 position: absolute;
 
     background-size: cover; 
     object-fit: cover;
-    rotate: 240deg;
-    top:-10px;
-    right: -120px;
+    rotate: 0deg;
+    top:-30px;
+    right: -90px;
     z-index: 3;   
     animation: upDown 2s ease-in-out infinite;
 }
 .im4{
-    background:url('ed.webp');
-    height: 490px;  
-    width: 500px; 
+    background:url('ys2.webp');
+    height: 250px;  
+    width: 250px;
 position: absolute;
 
     background-size: cover; 
     object-fit: cover;
-     top: 200px;
-    
+     top: 325px;
+     rotate: -25deg;
     right: 0px;
     z-index: 3;   
     animation: upDown 2s ease-in-out infinite;
 
 }
 .im5{
-    background:url('vid.webp');
-    height: 300px;  
-    width: 300px; 
+    background:url('ys.webp');
+    height: 250px;  
+    width: 250px;  
 position: absolute;
-top: -110px;
-
+top: -30px;
+left: 590px;
     background-size: cover; 
     object-fit: cover;
-    rotate: -35deg;
+  
     z-index: 4;   
     animation: upDown 2s ease-in-out infinite;
 
@@ -109,7 +110,7 @@ top: -110px;
       transform: translateY(0);
     }
     50% {
-      transform: translateY(-7px);
+      transform: translateY(-9px);
     }
     100% {
       transform: translateY(0);
@@ -118,22 +119,22 @@ top: -110px;
 
 .centbut{
     display: flex;
-    margin-top: 12px;
+    margin-top: 32px;
 }
  
 .butsty{
 margin: 10px; 
-color: white;
-background-color: rgb(255, 119, 0);
+color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
 padding: 13px;
 font-size: larger;
 border-radius: 21px;
-border: none;
+border:2px solid black;
 font-weight: bolder;
 }
 
 .butsty:hover{
-    background: rgba(72, 21, 241); /* Slightly more opaque on hover */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Slightly stronger shadow on hover */
- 
+    background: rgb(241, 21, 21); /* Slightly more opaque on hover */
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.836); /* Slightly stronger shadow on hover */
+ color: white;
 }

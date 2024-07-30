@@ -52,7 +52,7 @@ const CardData=[
 
 const Services = () => {
   return (
- 
+ <div id="services">
     <div className={styles.bg}>  
   <center><h1 className={styles.ser}>Services</h1></center>
    <div className={styles.cbox}>
@@ -66,7 +66,7 @@ para={card.para}
       ))}
     </div>
  </div> 
- )
+ </div>)
 }
 
 export default Services
