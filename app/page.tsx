@@ -5,6 +5,8 @@ import Vidtier from "./vidtiers/vidtier";
 import Nav from "./nav/nav";
 import Services from "./services/services";
 import Pricing from "./pricing/pricing";
+import Wwwu from "./wwwu/wwwu";
+import Faq from "./faq/faq";
 
 export default function Home() {
   return (
@@ -18,7 +20,10 @@ export default function Home() {
 
 <Vidtier/>
 <Services/>
+<Wwwu/>
 <Pricing/>
+
+<Faq/>
 </div>
   );
 }

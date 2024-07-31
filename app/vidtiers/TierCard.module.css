@@ -10,13 +10,21 @@
     color: white;
     background: linear-gradient(to bottom left,rgb(0, 0, 0),rgb(255, 0, 0));
    
-height:250px;
+    border-top: 2px solid rgb(255, 255, 255);  
+    border-left: 2px solid rgb(255, 255, 255);  
+    border-right: none;
+    border-bottom: none;
   }
   
   .reverse {
     flex-direction: row-reverse;
     background: linear-gradient(to bottom left,rgb(255, 0, 0),rgb(0, 0, 0));
- 
+ height:250px;
+border-top: 2px solid rgb(255, 255, 255);  
+border-right: 2px solid rgb(255, 255, 255);  
+border-left: none;
+border-bottom: none;
+
   }
   
   

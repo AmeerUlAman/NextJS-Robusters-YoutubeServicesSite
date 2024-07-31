@@ -1,0 +1,37 @@
+ 
+.container {
+ width: 100%;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #ffffff; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 70%;
+    
+  }
+  
+  .h2 {
+    text-align: center;
+
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 67px;
+  }
+  
+  .question {
+
+    margin-bottom: 20px;
+  }
+  
+  .h3 {
+    background: linear-gradient(to bottom, #001eff,rgb(72, 0, 255), #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+  }
+  
+  .p {
+    line-height: 1.6;
+  }
+  

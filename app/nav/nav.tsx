@@ -1,6 +1,5 @@
 "use client";
 
-
 import React, { useEffect, useState } from 'react';
 import styles from './nav.module.css';
 
@@ -10,15 +9,20 @@ const Nav = () => {
   useEffect(() => {
     const sections = document.querySelectorAll('section, div[id]');
     const options = {
-      threshold: 0.3,
+      threshold: [0.3, 0.6, 0.9],
     };
 
+    let debounceTimer;
+
     const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          setActiveSection(entry.target.id);
-        }
-      });
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(() => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setActiveSection(entry.target.id);
+          }
+        });
+      }, 50);
     }, options);
 
     sections.forEach((section) => {
@@ -44,8 +48,14 @@ const Nav = () => {
         <li className={`${styles.navItem} ${activeSection === 'services' ? styles.active : ''}`}>
           <a href="#services">Services</a>
         </li>
+        <li className={`${styles.navItem} ${activeSection === 'wwwu' ? styles.active : ''}`}>
+          <a href="#wwwu">Why Us</a>
+        </li>
         <li className={`${styles.navItem} ${activeSection === 'pricing' ? styles.active : ''}`}>
           <a href="#pricing">Pricing</a>
+        </li>    
+        <li className={`${styles.navItem} ${activeSection === 'faq' ? styles.active : ''}`}>
+          <a href="#faq">FAQ</a>
         </li>
       </ul>
     </nav>

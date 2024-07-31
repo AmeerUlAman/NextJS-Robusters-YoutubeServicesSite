@@ -8,7 +8,12 @@
    padding: 15px;
    border-radius: 17px; 
  
-
+   border-top: 2px solid rgb(255, 255, 255);  
+   border-right: 2px solid rgb(255, 255, 255);  
+   border-left: none;
+   border-bottom: none;
+   
+  
   }
   
 

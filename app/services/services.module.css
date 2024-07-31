@@ -16,6 +16,6 @@ color: white;
 .bg{
     background:linear-gradient(to bottom right,rgb(49, 49, 49),rgb(42, 42, 42),black,rgb(166, 11, 11),red ) ;
 width: 95%;
-margin: 60px auto; 
+margin: 80px auto; 
 border-radius: 17px;
 }
