@@ -6,7 +6,10 @@ import Services from "./services/services";
 import Pricing from "./pricing/pricing";
 import Wwwu from "./wwwu/wwwu";
 import Faq from "./faq/faq";
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/next";
+ 
+
+
 export default function Home() {
   return (
 <div>
@@ -21,6 +24,7 @@ export default function Home() {
 <Services/>
 <Wwwu/>
 <SpeedInsights/>
+<Pricing/>
 
 <Faq/>
 </div>
