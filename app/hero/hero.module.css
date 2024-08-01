@@ -138,3 +138,15 @@ font-weight: bolder;
     box-shadow: 0 6px 12px rgba(255, 255, 255, 0.836); /* Slightly stronger shadow on hover */
  color: white;
 }
+
+
+
+@media (max-width: 900px) {
+   .im1,.im2,.im3,.im4,.im5 {
+    display: none;
+    }
+    .background{
+margin: 0 auto;
+width: 90%;
+    }
+}
