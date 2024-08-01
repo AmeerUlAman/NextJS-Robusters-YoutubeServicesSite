@@ -1,5 +1,4 @@
-import Image from "next/image";
- import Intro3 from "./demo2/intro3";
+import Image from "next/image"; 
 import Hero from "./hero/hero";
 import Vidtier from "./vidtiers/vidtier";
 import Nav from "./nav/nav";
