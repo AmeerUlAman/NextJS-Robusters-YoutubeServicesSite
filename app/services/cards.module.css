@@ -30,5 +30,10 @@ padding: 14px;
 font-weight: bolder;
 
 }
-.parras{}
+@media (max-width: 900px) {
+    .card{
+        width: 100%;}
+
+
+}
 

@@ -48,26 +48,10 @@
 }
 @media (max-width: 767px) {
 .navbar{
-width: 85%;
-margin:0 auto ;
-margin-bottom: 20px;
+display: none;
 }
 
-
-.navList {
  
-}
-
-.navItem {
- 
-}
-
-.navItem a {
- font-size: smaller;
- font-weight: lighter;
-
-}
-
  
 
  

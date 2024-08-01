@@ -33,7 +33,7 @@ border-bottom: none;
     height: auto;
     position: relative;
     margin: 11px;
-    object-fit: cover;
+   
   }
   .image iframe{
     border-radius: 10px;
@@ -85,4 +85,36 @@ box-shadow: 0 0 20px rgba(255, 255, 255, 1);
 background-color: red;
 color: white;
 border: 2px solid white;
+}
+
+@media (max-width: 900px) {
+.extmar{
+margin-top:15px ;
+
+}
+.card{
+width: 85%;
+
+}
+.image{
+  margin: 2px;
+  margin-bottom: 4px;
+align-content: center;
+padding: 7px;
+}
+.butst{
+padding: 6px;
+margin: 5px;
+font-size: medium;
+
+}
+.title{
+font-size: large;
+
+}
+.ifr{
+height: 70%;
+
+}
+
 }

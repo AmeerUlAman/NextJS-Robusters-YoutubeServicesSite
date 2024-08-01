@@ -31,7 +31,7 @@
     font-size: 40px;
     color: rgb(255, 255, 255);
     padding: 15px;
-    margin-bottom: 3vh;
+    margin-bottom: 30px;
     filter: drop-shadow(2px 4px 2px  rgb(0, 0, 0));
   }
   .ffrex{
@@ -101,4 +101,20 @@ font-style: italic;
     color: rgb(255, 255, 255);
    margin-left: 15px;
    padding: 7px;
+}
+@media (max-width: 900px) {
+.bg{
+width:90% ;
+
+}
+
+.tick{
+font-size: small;
+
+}
+
+.title{
+margin-bottom:10px ;
+
+}
 }
