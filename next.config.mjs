@@ -1,9 +1,13 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  output: 'export',
+  basePath: '',
+};
+
 export default {
-    reactStrictMode: true,
-    eslint: {
-      ignoreDuringBuilds: true, // This will ignore ESLint during builds
-    },
-  };
-   
+  reactStrictMode: true,
+  eslint: {
+    ignoreDuringBuilds: true, // This will ignore ESLint during builds
+  },
+};
+ 

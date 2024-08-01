@@ -25,7 +25,7 @@ const Faq = () => {
         <p className={styles.p}>
           Absolutely not. YouTube allows you to grant access to your channel without sharing your
           Google account credentials. You can give us editor access, which enables us to upload and
-          schedule videos, and conduct A/B testing to improve your channel's CTR and AVD.
+          schedule videos, and conduct A/B testing to improve your channel&#39;s CTR and AVD.
         </p>
       </div>
     </div>   
