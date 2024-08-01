@@ -16,7 +16,7 @@ const TierCard: React.FC<ProjectCardProps> = ({ tier,title, description, webUrl,
   return (
     <div className={`${styles.card} ${reverse ? styles.reverse : ''}`}>
       <div className={styles.image}>
-        <iframe width="100%" height="100%" src={webUrl} title="YouTube video player"  className={styles.ifr} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="100%" height="100%" src={webUrl} title="YouTube video player"  className={styles.ifr}   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  ></iframe>
       </div>
       <div className={styles.content}>
       <center><h1>{tier}</h1></center>
