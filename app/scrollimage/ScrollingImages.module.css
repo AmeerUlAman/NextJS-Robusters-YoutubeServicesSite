@@ -1,0 +1,43 @@
+/* components/ScrollingImages.module.css */
+.scroller {
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    width: 89%;
+margin: 50px auto;
+}
+
+.inner {
+    display: flex;
+    animation: scroll 40s linear infinite;
+}
+
+.imageContainer {
+    display: inline-block;
+    width: 150px; /* Adjust the width as needed */
+    margin-right: 10px; /* Adjust the margin as needed */
+overflow: visible;
+}
+
+.image {
+    width: 75%;
+    height: auto;
+    display: block;
+    border-radius: 17px;
+    filter: brightness(70%);
+    background-color: black;
+}
+.image:hover{
+    filter: brightness(100%);
+    transform: scale(1.05);
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}

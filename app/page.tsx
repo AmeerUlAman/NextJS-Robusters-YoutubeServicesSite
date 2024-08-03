@@ -7,19 +7,20 @@ import Pricing from "./pricing/pricing";
 import Wwwu from "./wwwu/wwwu";
 import Faq from "./faq/faq";
 import { SpeedInsights } from "@vercel/speed-insights/next";
- 
+ import ScrollingImages from "./scrollimage/scrollingimage";
 
 
 export default function Home() {
   return (
 <div>
+
+  <div className="nbg">
 <Nav/>
   <center>
      <Image   width={1920}   height={1080}   quality={100} alt="LOGO"  src={'/logoorg.png'}  className='logo' />
 </center>
- <Hero/>
- 
-
+ <Hero/> 
+ </div>
 <Vidtier/>
 <Services/>
 <Wwwu/>

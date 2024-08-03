@@ -17,3 +17,8 @@ body{
 html {
     scroll-behavior: smooth;
   }
+  .nbg{
+background: linear-gradient(to bottom,black 50%,red,white);
+
+
+  }

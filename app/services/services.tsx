@@ -29,7 +29,7 @@ const CardData=[
             para:'We turn raw footage into polished videos that look professional and grab attention',
             },
             {
-              image:'/thumbnail.png',
+              image:'/image.png',
               head:'Thumbnail Creation' ,
               para:'We design eye-catching thumbnails that make people want to click on your videos.',
               },
