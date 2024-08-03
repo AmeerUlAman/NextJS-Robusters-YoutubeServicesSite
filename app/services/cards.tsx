@@ -11,10 +11,10 @@ interface CardData {
 const Cards: React.FC<CardData> = ({ image, title, para }) => {
   return (
     <div className={styles.card}>
-      <div>
+      <div className={styles.imag}>
       <Image 
-        height={1000} 
-        width={1000} 
+        height={50} 
+        width={50} 
         quality={100} 
         src={image} 
         alt={image} 

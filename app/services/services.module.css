@@ -1,21 +1,22 @@
 .cbox{
 display: flex;
-align-items: stretch; 
+/* align-items: stretch;  */
 flex-wrap: wrap;
-
-
 justify-content: center;
-
 }
+
+
 .ser{
-font-size: 60px;
+font-size: 67px;
 padding: 37px;
-color: white;
-
+color: rgb(0, 0, 0);
 }
+
+
 .bg{
-    background:linear-gradient(to bottom right,rgb(49, 49, 49),rgb(42, 42, 42),black,rgb(166, 11, 11),red ) ;
-width: 95%;
-margin: 80px auto; 
+/* background:linear-gradient(to bottom right,rgb(49, 49, 49),rgb(42, 42, 42),black,rgb(166, 11, 11),red ) ;
+margin: 80px auto;  */
 border-radius: 17px;
+width: 85%;
+margin: 0 auto;
 }

@@ -4,42 +4,42 @@ import Cards from './cards';
 
 const CardData=[
   {
-    image:'/channelbranding.jpg',
+    image:'/search.png',
     head:'Channel Branding ' ,
     para:'We create a unique look and feel for your channel that stands out and attracts viewers.',
     },
     {
-      image:'/topicresearch.jpg',
+      image:'/research.png',
       head:'Topic Research' ,
       para:'We find trending topics in your niche that your audience will love',
       },
       {
-        image:'/scriptwriting.jpg',
+        image:'/script.png',
         head:'Script Writing' ,
         para:'Our team crafts engaging scripts that keep viewers watching till the end',
         },
         {
-          image:'/voiceover.jpg',
+          image:'/voice.png',
           head:'Voice Over' ,
           para:'We provide clear, engaging voice overs that bring your content to life.',
           },
           {
-            image:'/videoediting.jpg',
+            image:'/video.png',
             head:'Video Editing' ,
             para:'We turn raw footage into polished videos that look professional and grab attention',
             },
             {
-              image:'/thumbnailcreation.jpg',
+              image:'/thumbnail.png',
               head:'Thumbnail Creation' ,
               para:'We design eye-catching thumbnails that make people want to click on your videos.',
               },
               {
-                image:'/seooptimization.jpg',
+                image:'/seo.png',
                 head:'SEO Optimization' ,
                 para:'We use the right tags, titles, and descriptions to help your videos show up in searches.',
                 },
                 {
-                  image:'/videouploading.jpg',
+                  image:'/upload.png',
                   head:'Video Uploading' ,
                   para:'We handle the technical stuff, uploading your videos at the best times for maximum views.',
                   },
