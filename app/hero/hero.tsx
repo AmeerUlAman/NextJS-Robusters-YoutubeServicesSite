@@ -10,12 +10,6 @@ For Long-Term Success</h1> </center>
  <p className={styles.text2}>We build sustainable multi revenue YouTube brands</p> 
 
 
-
-{/* <div className={styles.im2}></div>
-  <div className={styles.im3}></div>  
-  <div className={styles.im1}></div> 
-  <div className={styles.im4}></div> 
-  <div className={styles.im5}></div>   */}
 <ScrollingImages/>
 
 <div className={styles.centbut}>

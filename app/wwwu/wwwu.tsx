@@ -40,9 +40,7 @@ const Wwwu = () => {
       YouTube team without the stress of day-to-day management.
     </p>
     </div>
-    {/* <div style={{margin:"5% 0px 0px 10% "}} className={styles.im}>
-  <Image   width={329} height={300} quality={100} src={"/profic.png"} alt='PROFIT'/> 
-    </div> */}
+    
   </div>
   </div>)
 }

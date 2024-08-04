@@ -36,78 +36,6 @@ align-items: center;
     margin-top: 10px;
    
  }
-.im2{ 
-       background:url('subs.webp');
-       height: 150px;  
-    width: 360px;
-    background-size: cover; 
- 
-    object-fit: cover;
-    position: absolute;
-     top: 340px;
-     left: 0px;
-     rotate: 45deg;
-     z-index: 3;
-     animation: upDown 2s ease-in-out infinite;
-
-    }
-.im3{  
-      background:url('yout.png');
-    height: 300px;  
-    width: 300px; 
-position: absolute;
-top: -70px;
-    background-size: cover; 
-    object-fit: cover;
-    left: 0px;
-    rotate: 60deg;
-    z-index: 3;
-    animation: upDown 2s ease-in-out infinite;
-}
-.im1{
-
-    background:url('youshort.png');
-    height: 300px;  
-    width: 300px; 
-position: absolute;
-
-    background-size: cover; 
-    object-fit: cover;
-    rotate: 0deg;
-    top:-30px;
-    right: -90px;
-    z-index: 3;   
-    animation: upDown 2s ease-in-out infinite;
-}
-.im4{
-    background:url('ys2.webp');
-    height: 250px;  
-    width: 250px;
-position: absolute;
-
-    background-size: cover; 
-    object-fit: cover;
-     top: 325px;
-     rotate: -25deg;
-    right: 0px;
-    z-index: 3;   
-    animation: upDown 2s ease-in-out infinite;
-
-}
-.im5{
-    background:url('ys.webp');
-    height: 250px;  
-    width: 250px;  
-position: absolute;
-top: -30px;
-left: 590px;
-    background-size: cover; 
-    object-fit: cover;
-  
-    z-index: 4;   
-    animation: upDown 2s ease-in-out infinite;
-
-}
 
 @keyframes upDown {
     0% {
@@ -146,15 +74,39 @@ font-weight: bolder;
 }
 
 
-
-@media (max-width: 900px) {
-   .im1,.im2,.im3,.im4,.im5 {
-    display: none;
-    }
-    .background{
-        width: 85%;
-        margin:0 auto ;
-        height: 90%;
+@media (max-width: 1200px) {
+    .text1 {
+      font-size: 36px;
+      width: 80%;
     }
   
-}
+    .text2 {
+      font-size: large;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .text1 {
+      font-size: 28px;
+      width: 100%;
+    }
+  
+    .text2 {
+      font-size: medium;
+    }
+  
+    .centbut {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .butsty {
+      width: 80%;
+      padding: 10px;
+    }
+  
+    .background {
+      height: auto;
+      padding: 20px;
+    }
+  }

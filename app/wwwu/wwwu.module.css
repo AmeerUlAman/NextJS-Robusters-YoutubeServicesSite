@@ -1,63 +1,68 @@
 .container {
-     display: flex;
- 
-    padding: 20px;
-    font-family: Arial, sans-serif;
-    color: #ffffff; 
-    border-radius: 8px;
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
-    width: 85%;
-     margin: 0 auto;
-  
+  display: flex;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #ffffff; 
+  border-radius: 8px;
+  width: 95%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.h2 {
+  text-align: center;
+  color: #000000;
+  font-size: 67px;
+  margin-bottom: 20px;  
+}
+
+.h3 {
+  color: red;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: larger;
+  padding: 10px;
+}
+
+.p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: black;
+}
+
+.fi {
+  width: 25%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; 
+  text-align: center;
+}
+
+.ch {
+  padding: 20px;
+  background-color: rgb(231, 236, 85);
+  border-radius: 50%;
+  overflow: visible;  
+}
+
+@media (max-width: 1200px) {
+  .fi {
+    width: 45%; /* Adjust width for medium screens */
   }
-  
+}
+
+@media (max-width: 768px) {
+  .fi {
+    width: 100%; /* Stack items vertically on small screens */
+    margin-bottom: 40px;
+  }
+
   .h2 {
-    text-align: center;
-    color: #000000;
-    font-size: 67px;
-    margin-bottom: 20px;  }
-  
+    font-size: 48px; /* Adjust heading size for smaller screens */
+  }
+
   .h3 {
- 
-    color: red;
-    margin-top: 20px;
-    font-weight: bold;
-    font-size: larger;
-    padding: 10px;
+    font-size: large; /* Adjust subheading size for smaller screens */
   }
-  .p {
-    line-height: 1.6;
-    margin-bottom: 15px;
-    color: black;
-  }
-
-  @media (max-width: 900px) {
-
-.im{
-display: none;
-}
-
-.container{
-  width: 100%;
-  margin: 0px auto;
-  margin-left: 0px;
- 
-}
-
-  }
-
-  .fi{
-    width: 25%;
-    margin: 20px auto;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap; 
-    text-align: center;
-  }
-
- .ch{
-padding: 20px;
-background-color: rgb(231, 236, 85);
-border-radius: 50%;
-overflow: visible;  
 }

@@ -1,119 +1,138 @@
- 
 .card {
-    display: flex;
-    flex-direction: row; 
-    border-radius: 8px;
-    overflow: hidden;
-    margin: 32px auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
-    width: 85%;
-    color: rgb(0, 0, 0);
-    /* background: linear-gradient(to bottom left,rgb(0, 0, 0),rgb(255, 0, 0));
-   
-    border-top: 2px solid rgb(255, 255, 255);  
-    border-left: 2px solid rgb(255, 255, 255);  
-    border-right: none;
-    border-bottom: none; */
-      /* background:linear-gradient(to bottom,rgb(244, 46, 46) 1%,white 90%) ;   */
-    backdrop-filter: blur(10px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 32px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+  width: 85%;
+  color: rgb(0, 0, 0);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 49px;
   border-bottom: 4px solid red;
   border-right: 4px solid red;
   height: 300px;
-  }
- 
-  
-  .image {
-    width: 30%;
-    height: 80%;
-    position: fixed;
-    margin: 11px;
-    right: 40px;
- 
-  }
-  .image iframe{
-    border-radius: 10px;
- border-bottom: 4px solid red;
- border-right: 5px solid red;
-  }
-  
-  .content {
-    width: 50%;
-    padding: 16px;
-  }
-  
-  .title {
-    margin: 0;
-    font-size: 40px;
-    color: rgb(255, 1, 1);
-  }
-  
-  .description {
-    margin: 10px 0;
-    font-style: oblique;
-    font-size: large;
-  }
-  
-  .link {
-    color: blue;
-    text-decoration: underline;
-  }
-  .ifr{
-    transition: box-shadow 0.3s ease-in-out;
-  }
+  transition: all 0.3s ease-in-out;
+}
 
-  .ifr:hover{
- scale: 1.03; 
-box-shadow: 0 0 20px rgba(255, 255, 255, 1);
-  }
-  .butst{
-    padding: 10px;
-    margin: 13px;
-    border-radius: 17px;
-    font-weight: 700;
-    background-color: white;
-    border: 3px solid black;
-    font-size: larger;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
-    transition: box-shadow 0.3s ease-in-out;
-  }
-.butst:hover{
-/* scale:1.09 ; */
-box-shadow: 0 0 20px rgba(255, 255, 255, 1);
-background-color: red;
-color: white;
-border: 2px solid white;
+.image {
+  width: 30%;
+  margin: 11px;
+  right: 40px;
+  position: relative;
+}
+
+.image iframe {
+  border-radius: 10px;
+  border-bottom: 4px solid red;
+  border-right: 5px solid red;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.content {
+  width: 50%;
+  padding: 16px;
+}
+
+.title {
+  margin: 0;
+  font-size: 40px;
+  color: rgb(255, 1, 1);
+}
+
+.description {
+  margin: 10px 0;
+  font-style: oblique;
+  font-size: large;
+}
+
+.butst {
+  padding: 10px;
+  margin: 13px;
+  border-radius: 17px;
+  font-weight: 700;
+  background-color: white;
+  border: 3px solid black;
+  font-size: larger;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+.butst:hover {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 1);
+  background-color: red;
+  color: white;
+  border: 2px solid white;
 }
 
 @media (max-width: 900px) {
-.extmar{
-margin-top:15px ;
+  .extmar {
+    margin-top: 15px;
+  }
 
-}
-.card{
-width: 85%;
+  .card {
+    flex-direction: column;
+    width: 95%;
+    height: auto;
+  }
 
-}
-.image{
-  margin: 2px;
-  margin-bottom: 4px;
-align-content: center;
-padding: 7px;
-}
-.butst{
-padding: 6px;
-margin: 5px;
-font-size: medium;
+  .image {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
 
-}
-.title{
-font-size: large;
+  .content {
+    width: 100%;
+    padding: 16px;
+  }
 
-}
-.ifr{
-height: 70%;
+  .title {
+    font-size: 28px;
+  }
 
+  .description {
+    font-size: medium;
+  }
+
+  .butst {
+    padding: 8px;
+    margin: 8px;
+    font-size: medium;
+  }
+
+  .image iframe {
+    height: 300px;
+  }
 }
 
+.heading {
+  font-size: 67px;
+  color: black;
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .description {
+    font-size: small;
+  }
+
+  .butst {
+    padding: 6px;
+    margin: 6px;
+    font-size: small;
+  }
+
+  .image iframe {
+    height: 200px;
+  }
 }

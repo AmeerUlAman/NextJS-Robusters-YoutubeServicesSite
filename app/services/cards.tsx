@@ -1,3 +1,4 @@
+// components/Cards.tsx
 import React from 'react';
 import styles from './cards.module.css';
 import Image from 'next/image';
@@ -10,15 +11,15 @@ interface CardData {
 
 const Cards: React.FC<CardData> = ({ image, title, para }) => {
   return (
-    <div className={styles['card-container']}>
+    <div className={styles.cardcontainer}>
       <div className={styles.card}>
         <div className={styles.imag}>
-          <Image 
-            height={150} 
-            width={150} 
-            quality={100} 
-            src={image} 
-            alt={image} 
+          <Image
+            height={50}
+            width={50}
+            quality={100}
+            src={image}
+            alt={image}
             className={styles.images}
           />
         </div>

@@ -1,4 +1,7 @@
-/* cards.module.css */
+.cardcontainer {
+  margin-bottom: 60px; /* Space below each card to allow for expansion */
+}
+
 .card {
   flex: 1 1 auto; 
   padding: 14px;
@@ -15,7 +18,6 @@
   align-items: stretch;  
   width: 200px; 
   height: 230px;  
-  
 }
 
 .images {
@@ -29,7 +31,6 @@
   height: 50px;  
   overflow: visible;
   transition: background-color 0.3s;
-    
 }
 
 .imag {
@@ -43,36 +44,40 @@
   padding: 14px;
   font-weight: bolder;
   text-align: center;
-  
 }
 
 .paras {
   display: none;
   text-align: center;
+  font-size: smaller;
 }
 
 .card:hover {
-  transform: scale(1.05);
+  transform: scale(1.25, 1.25);  
   box-shadow: 0px 12px 12px rgba(255, 250, 250, 0.873);
-  background-color: rgb(203, 23, 23);  
-height: 290px;
+  background-color: rgb(203, 23, 23); 
+  /* height: 290px;  */
 }
 
 .card:hover .paras {
   display: block;
   color: white;
 }
+.card:hover .titles{
+  margin-top: 15px;
+  display: none;
+}
 
 .card:hover .s {
   background-color: black;
-   }
-   .card:hover .images {
-    background-color: rgb(255, 255, 255);
-  
-     }
-    
+}
+
+.card:hover .images {
+  background-color: rgb(255, 255, 255);
+}
+
 @media (max-width: 900px) {
   .card {
-      width: 100%;
+    width: 100%;
   }
 }
