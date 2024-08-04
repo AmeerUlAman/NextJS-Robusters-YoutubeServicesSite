@@ -6,7 +6,7 @@
     overflow: hidden;
     margin: 32px auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
-    width: 70%;
+    width: 85%;
     color: rgb(0, 0, 0);
     /* background: linear-gradient(to bottom left,rgb(0, 0, 0),rgb(255, 0, 0));
    
@@ -14,34 +14,28 @@
     border-left: 2px solid rgb(255, 255, 255);  
     border-right: none;
     border-bottom: none; */
-    background:linear-gradient(to bottom,rgb(216, 216, 216),rgb(255, 255, 255),rgb(255, 255, 255),black) ;
+      /* background:linear-gradient(to bottom,rgb(244, 46, 46) 1%,white 90%) ;   */
     backdrop-filter: blur(10px);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  
-  
+  margin-bottom: 49px;
+  border-bottom: 4px solid red;
+  border-right: 4px solid red;
+  height: 300px;
   }
-  
-  .reverse {
-    flex-direction: row-reverse;
  
- height:250px;
- background:linear-gradient(to bottom,rgb(216, 216, 216),rgb(255, 255, 255),rgb(255, 255, 255),black) ;
- backdrop-filter: blur(10px);
- box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-
-  }
-  
   
   .image {
-    width: 49%;
-    height: auto;
-    position: relative;
+    width: 30%;
+    height: 80%;
+    position: fixed;
     margin: 11px;
-   
+    right: 40px;
+ 
   }
   .image iframe{
     border-radius: 10px;
-
+ border-bottom: 4px solid red;
+ border-right: 5px solid red;
   }
   
   .content {
@@ -52,6 +46,7 @@
   .title {
     margin: 0;
     font-size: 40px;
+    color: rgb(255, 1, 1);
   }
   
   .description {

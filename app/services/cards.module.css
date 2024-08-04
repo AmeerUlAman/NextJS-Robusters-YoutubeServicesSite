@@ -1,87 +1,78 @@
-.card-container {
-    width: 20%;
-    margin: 22px;
-    position: relative; /* To contain the absolutely positioned .card */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
+/* cards.module.css */
+.card {
+  flex: 1 1 auto; /* Allow the card to grow and shrink */
+  padding: 14px;
+  background-color: rgba(255, 0, 0, 0.101);
+  border-radius: 14px;
+  margin: 22px;
+  color: rgb(0, 0, 0);
+  border: 2px solid rgba(255, 255, 255, 0.151);
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align items to the start of the flex container */
+  align-items: stretch; /* Center items horizontally */
+  width: 200px; /* Fixed width to prevent horizontal expansion */
+  height: 230px; /* Allow height to adjust based on content */
   
-  .card {
-    padding: 14px;
-    background-color: rgba(255, 0, 0, 0.101);
-    border-radius: 14px;
-    color: rgb(0, 0, 0);
-    border: 2px solid rgba(255, 255, 255, 0.151);
-    transition: transform 0.3s, box-shadow 0.3s;
-    position: relative; /* Default state */
-    height: 100%; /* Make card take full height of the container */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
+}
+
+.images {
+  background-position: center;
+  background-size: cover;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(219, 121, 121);
+  padding: 25px;
+  border-radius: 50%;
+  width: 50px;  /* Adjust image size */
+  height: 50px; /* Adjust image size */
+  overflow: visible;
+  transition: background-color 0.3s;
+    
+}
+
+.imag {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; /* Adjust margin for spacing */
+}
+
+.titles {
+  font-size: x-large;
+  padding: 14px;
+  font-weight: bolder;
+  text-align: center;
   
-  .images {
-    background-position: center;
-    background-size: cover;
-    border: 2px solid rgb(255, 255, 255);
+}
+
+.paras {
+  display: none;
+  text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 12px 12px rgba(255, 250, 250, 0.873);
+  background-color: rgb(203, 23, 23); /* Smooth background color change */
+height: 290px;
+}
+
+.card:hover .paras {
+  display: block;
+  color: white;
+}
+
+.card:hover .s {
+  background-color: black;
+   }
+   .card:hover .images {
     background-color: rgb(255, 255, 255);
-    padding: 25px;
-    border-radius: 40%;
-    width: 75px;
-    height: 75px; /* Fixed height with px unit */
-    transition: width 0.3s, height 0.3s, background-color 0.3s; /* Smooth transition for image size and background color */
-    overflow: visible;
-  }
   
-  .imag {
-    display: flex;
-    justify-content: center;
+     }
+    
+@media (max-width: 900px) {
+  .card {
+      width: 100%;
   }
-  
-  .titles {
-    font-size: x-large;
-    padding: 14px;
-    font-weight: bolder;
-  }
-  
-  .paras {
-    font-size: smaller;
-    display: none;
-  }
-  
-  .card-container:hover .card {
-    transform: scale(1.05);
-    box-shadow: 0px 12px 12px rgba(255, 250, 250, 0.873);
-    position: absolute;  
-    z-index: 10;  
-  }
-  
-  .card-container:hover .images {
-    width: 60px; 
-    height: 60px; 
-    background-color: rgba(31, 12, 142, 0.5);  
-  }
-  
-  .card-container:hover .paras {
-    display: block;
-  }
-  
-  @media (max-width: 1200px) {
-    .card-container {
-      width: 22%; 
-    }
-  }
-  
-  @media (max-width: 900px) {
-    .card-container {
-      width: 45%; 
-    }
-  }
-  
-  @media (max-width: 600px) {
-    .card-container {
-      width: 100%; /* Full width for very small screens */
-    }
-  }
-  
+}

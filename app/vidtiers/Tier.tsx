@@ -47,8 +47,7 @@
               description={project.description}
               webUrl={project.webUrl} 
               but={project.but}
-              butid={project.butid}
-              reverse={index % 2 === 1}
+              butid={project.butid} 
             />
           ))}
         </div>

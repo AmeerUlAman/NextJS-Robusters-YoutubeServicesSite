@@ -1,17 +1,19 @@
+/* services.module.css */
+.bg {
+  border-radius: 17px;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.ser {
+  font-size: 67px;
+  padding: 37px;
+  color: rgb(0, 0, 0);
+}
+
 .cbox {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .ser {
-    font-size: 67px;
-    padding: 37px;
-    color: rgb(0, 0, 0);
-  }
-  
-  .bg {
-    border-radius: 17px;
-    width: 85%;
-    margin: 0 auto;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch; /* Ensure cards stretch to equal heights */
+}
