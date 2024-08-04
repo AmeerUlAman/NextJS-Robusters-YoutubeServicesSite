@@ -1,9 +1,6 @@
-.cardcontainer {
-  margin-bottom: 60px; /* Space below each card to allow for expansion */
-}
-
+ 
 .card {
-  flex: 1 1 auto; 
+  flex: 1 1 auto;
   padding: 14px;
   background-color: rgba(255, 0, 0, 0.101);
   border-radius: 14px;
@@ -14,10 +11,10 @@
   transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; 
-  align-items: stretch;  
-  width: 200px; 
-  height: 230px;  
+  justify-content: flex-start;
+  align-items: stretch;
+  width: 200px;
+  height: 230px;
 }
 
 .images {
@@ -27,8 +24,8 @@
   background-color: rgb(219, 121, 121);
   padding: 25px;
   border-radius: 50%;
-  width: 50px;   
-  height: 50px;  
+  width: 50px;
+  height: 50px;
   overflow: visible;
   transition: background-color 0.3s;
 }
@@ -36,7 +33,7 @@
 .imag {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
 }
 
 .titles {
@@ -53,23 +50,19 @@
 }
 
 .card:hover {
-  transform: scale(1.25, 1.25);  
+  transform: scale(1.25, 1.25);
   box-shadow: 0px 12px 12px rgba(255, 250, 250, 0.873);
-  background-color: rgb(203, 23, 23); 
-  /* height: 290px;  */
+  background-color: rgb(203, 23, 23);
 }
 
 .card:hover .paras {
   display: block;
   color: white;
 }
-.card:hover .titles{
+
+.card:hover .titles {
   margin-top: 15px;
   display: none;
-}
-
-.card:hover .s {
-  background-color: black;
 }
 
 .card:hover .images {
@@ -78,6 +71,30 @@
 
 @media (max-width: 900px) {
   .card {
-    width: 100%;
+    width: calc(50% - 44px); /* Adjusted width to fit two cards side by side */
+    margin: 11px;
+  }
+
+  .titles {
+    font-size: large;
+  }
+
+  .paras {
+    font-size: medium;
+  }
+}
+
+@media (max-width: 600px) {
+  .card {
+    width: calc(100% - 44px); /* Adjusted width to fit one card per row */
+    margin: 11px;
+  }
+
+  .titles {
+    font-size: medium;
+  }
+
+  .paras {
+    font-size: small;
   }
 }

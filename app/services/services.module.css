@@ -1,4 +1,3 @@
-/* services.module.css */
 .bg {
   border-radius: 17px;
   width: 85%;
@@ -15,5 +14,25 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: stretch; /* Ensure cards stretch to equal heights */
+  align-items: stretch;
+}
+
+@media (max-width: 900px) {
+  .ser {
+    font-size: 50px;
+  }
+
+  .bg {
+    width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  .ser {
+    font-size: 36px;
+  }
+
+  .bg {
+    width: 95%;
+  }
 }

@@ -17,10 +17,11 @@
 }
 
 .image {
-  width: 30%;
+  width: 40%;
+  height: 75%;
   margin: 11px;
   right: 40px;
-  position: relative;
+  position: absolute;
 }
 
 .image iframe {
@@ -115,6 +116,11 @@
   font-size: 67px;
   color: black;
   padding: 20px;
+}
+.pp{
+  font-size: large;
+
+margin-bottom: 100px;
 }
 
 @media (max-width: 600px) {
