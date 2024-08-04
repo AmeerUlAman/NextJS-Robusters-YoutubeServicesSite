@@ -23,6 +23,7 @@
     margin-top: 20px;
     font-weight: bold;
     font-size: larger;
+    padding: 10px;
   }
   .p {
     line-height: 1.6;
@@ -44,3 +45,19 @@ display: none;
 }
 
   }
+
+  .fi{
+    width: 25%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    text-align: center;
+  }
+
+ .ch{
+padding: 20px;
+background-color: rgb(231, 236, 85);
+border-radius: 50%;
+overflow: visible;  
+}
