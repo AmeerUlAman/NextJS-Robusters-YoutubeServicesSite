@@ -58,19 +58,21 @@ align-items: center;
 
 margin: 15px;
 margin-top: 0px; 
-color: rgb(0, 0, 0);
-background-color: rgb(255, 255, 255);
-padding: 13px;
+color: rgb(255, 255, 255);
+background-color: rgb(255, 0, 0);
+padding: 18px;
 font-size: larger;
-border-radius: 21px;
-border:2px solid rgb(255, 0, 0);
+border-radius: 22px;
+border:2px solid rgb(255, 255, 255);
 font-weight: bolder;
+transition: background-color 0.3s ease;
 }
 
 .butsty:hover{
     background: rgb(241, 21, 21); /* Slightly more opaque on hover */
     box-shadow: 0 6px 12px rgba(255, 255, 255, 0.836); /* Slightly stronger shadow on hover */
  color: white;
+transform: scale(1.05) ;
 }
 
 

@@ -14,7 +14,7 @@ For Long-Term Success</h1> </center>
 
 <div className={styles.centbut}>
     <button className={styles.butsty}>SEE PLANS</button>
-    <button  className={styles.butsty}>CONTACT US</button>
+    {/* <button  className={styles.butsty}>CONTACT US</button> */}
  </div> 
       </div>
       
