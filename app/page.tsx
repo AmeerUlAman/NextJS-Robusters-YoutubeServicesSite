@@ -8,7 +8,7 @@ import Wwwu from "./wwwu/wwwu";
 import Faq from "./faq/faq";
 import { SpeedInsights } from "@vercel/speed-insights/next";
  import ScrollingImages from "./scrollimage/scrollingimage";
-
+import Hero2 from "./hero2/hero2";
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
   <center>
      <Image   width={1920}   height={1080}   quality={100} alt="LOGO"  src={'/logoorg.png'}  className='logo' />
 </center>
- <Hero/> 
+<Hero2/>
  </div>
 <Vidtier/>
 <Services/>

@@ -1,0 +1,93 @@
+@keyframes darkenBackground {
+    from {
+      background: rgba(0, 0, 0, 0);
+    }
+    to {
+      background: rgba(0, 0, 0, 0.805); /* Darken more */
+    }
+  }
+  
+  @keyframes showText {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .background {
+    height: 700px;
+    width: 100%;
+    background: url('backg.jpg');
+    margin: 0 ;
+    background-position: center;
+    background-size: cover;
+   
+    position: relative;
+    overflow: hidden;
+  
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0);
+    animation: darkenBackground 1.1s forwards;
+    animation-delay: 1.1s;
+    z-index: 0; /* Ensure the overlay is below the text */
+  }
+  
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Ensuring the text color is completely white */
+    font-size: 32px; /* Increased font size */
+    font-weight: bold; /* Make the text bold */
+    opacity: 0;
+    animation: showText 1.1s forwards;
+    animation-delay: 1.1s;
+    z-index: 1; /* Ensure the text is on top of the overlay */
+  }
+  
+.centbut{
+  display: flex;
+  margin-top: 12px;
+}
+
+.butsty{
+margin: 10px; 
+color: rgb(255, 255, 255);
+background:linear-gradient(to bottom, rgb(26, 26, 109),black) ;
+padding: 13px;
+font-size: x-large;
+border-radius: 21px;
+border: none;
+font-weight: bold;
+box-shadow: 0 4px 12px rgba(255, 255, 255, 0.589);  
+}
+
+.butsty:hover{
+  background: rgb(255, 255, 255); 
+  color: blue;
+  box-shadow: 0 12px 24px rgba(255, 255, 255, 0.589);  
+}
+
+.fadehr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, rgb(66, 152, 160), rgb(244, 240, 18),  rgb(66, 152, 160));
+  }
+  .introtexta h1{
+font-size: 90px;
+
+  }
+  .introtexta p{
+font-size: 29px;
+
+  }

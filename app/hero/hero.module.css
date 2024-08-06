@@ -5,16 +5,48 @@ margin: 0 auto;
 /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); */
 margin-bottom:79px ;
 display: flex;
-flex-direction: column;
-justify-content:  flex-start;
+ align-items: flex-start;
+ 
 overflow: visible;
 position: relative;
-z-index: 1;
-align-items: center;
+z-index: 1; 
 /* background: linear-gradient(to bottom left,rgb(0, 0, 0),rgb(255, 0, 0));
   */
   padding: 20px;
 }
+.hemain{
+width: 60%;
+
+
+}
+
+
+.img{
+  width: 40%;
+ display: flex;
+justify-content: flex-end;
+
+transition: upDown 0.3s;
+margin-right:10%;
+}
+.ima{
+width:250px ;
+height:250px ;
+overflow: visible; 
+  border-radius: 50%; 
+ rotate: -15deg;
+}
+
+ .ac{
+  display: flex;
+padding: 20px;
+background-color: rgb(230, 233, 61);
+border-radius: 50%;
+width: 300px;
+height: 300px;
+align-items: center;
+justify-content: center;
+} 
 
  .text1{
     
@@ -52,12 +84,13 @@ align-items: center;
 .centbut{
     display: flex;
     margin-top: 0px;
+    justify-content: center;
 }
  
 .butsty{
 
 margin: 15px;
-margin-top: 0px; 
+margin-top: 20px; 
 color: rgb(255, 255, 255);
 background-color: rgb(255, 0, 0);
 padding: 18px;
