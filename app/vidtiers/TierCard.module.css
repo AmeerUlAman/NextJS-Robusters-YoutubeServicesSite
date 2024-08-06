@@ -6,7 +6,7 @@
   margin: 32px auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
   width: 85%;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   backdrop-filter: blur(10px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 49px;
@@ -14,6 +14,7 @@
   border-right: 4px solid red;
   height: 300px;
   transition: all 0.3s ease-in-out;
+ background-color: rgb(0, 0, 0);
 }
 
 .image {
@@ -39,15 +40,18 @@
 }
 
 .title {
-  margin: 0;
+  margin-top: 20px;
   font-size: 40px;
   color: rgb(255, 1, 1);
 }
 
 .description {
-  margin: 10px 0;
-  font-style: oblique;
-  font-size: large;
+  margin: 20px 0;
+  
+  font-size: larger;
+  color:white;
+
+
 }
 
 .butst {
@@ -114,7 +118,7 @@
 
 .heading {
   font-size: 67px;
-  color: black;
+  color: rgb(255, 255, 255);
   padding: 20px;
 }
 .pp{

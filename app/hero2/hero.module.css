@@ -38,21 +38,25 @@
     background: rgba(0, 0, 0, 0);
     animation: darkenBackground 1.1s forwards;
     animation-delay: 1.1s;
-    z-index: 0; /* Ensure the overlay is below the text */
+    z-index: 0; 
   }
   
   .text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white; /* Ensuring the text color is completely white */
-    font-size: 32px; /* Increased font size */
-    font-weight: bold; /* Make the text bold */
+ width: 90%;
+ height: 100%;
+ margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+    color: white;  
+    font-size: 32px;  
+    font-weight: bold; 
     opacity: 0;
     animation: showText 1.1s forwards;
     animation-delay: 1.1s;
-    z-index: 1; /* Ensure the text is on top of the overlay */
+    z-index: 1; 
+    gap: 4rem;
   }
   
 .centbut{
@@ -63,7 +67,7 @@
 .butsty{
 margin: 10px; 
 color: rgb(255, 255, 255);
-background:linear-gradient(to bottom, rgb(26, 26, 109),black) ;
+background:linear-gradient(to bottom, rgb(255, 0, 0),black) ;
 padding: 13px;
 font-size: x-large;
 border-radius: 21px;
@@ -84,10 +88,18 @@ box-shadow: 0 4px 12px rgba(255, 255, 255, 0.589);
     background: linear-gradient(to right, rgb(66, 152, 160), rgb(244, 240, 18),  rgb(66, 152, 160));
   }
   .introtexta h1{
-font-size: 90px;
-
+font-size: 67px;
+padding: 20px;
   }
   .introtexta p{
 font-size: 29px;
+padding: 20px;
+  }
 
+
+  .div{
+background-color: red;
+padding: 5px;
+color: white;
+border-radius: 14px;
   }

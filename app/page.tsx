@@ -20,8 +20,9 @@ export default function Home() {
      <Image   width={1920}   height={1080}   quality={100} alt="LOGO"  src={'/logoorg.png'}  className='logo' />
 </center>
 <Hero2/>
- </div>
 <Vidtier/>
+ </div>
+
 <Services/>
 <Wwwu/>
 <SpeedInsights/>
