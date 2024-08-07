@@ -20,7 +20,7 @@ const Cards: React.FC<CardData> = ({ image, title, para }) => {
             quality={100}
             src={image}
             alt={image}
-            className={styles.images}
+            className={styles.images} 
           />
         </div>
         <center><p className={styles.titles}>{title}</p></center>

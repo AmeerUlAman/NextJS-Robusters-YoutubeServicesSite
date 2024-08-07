@@ -11,7 +11,7 @@
 
 .h2 {
   text-align: center;
-  color: #000000;
+  color: #ffffff;
   font-size: 67px;
   margin-bottom: 20px;  
 }
@@ -27,7 +27,7 @@
 .p {
   line-height: 1.6;
   margin-bottom: 15px;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .fi {

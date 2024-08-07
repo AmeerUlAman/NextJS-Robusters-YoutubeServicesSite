@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Wwwu = () => {
   return (
-    <div style={{marginTop:"55px"}} id='wwwu'>   <h2 className={styles.h2} >Why Work With Us</h2>
+    <div style={{marginTop:"95px"}} id='wwwu'>   <h2 className={styles.h2} >Why Work With Us</h2>
     <div className={styles.container} >
       <div className={styles.fi}>
         <center><Image width={150} height={150} src={'/brandimage.png'} quality={100} alt='BRAND' className={styles.ch}/></center>
