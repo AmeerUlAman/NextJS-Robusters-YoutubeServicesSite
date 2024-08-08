@@ -49,7 +49,7 @@ const Shortform: React.FC = () => {
           </form>
         </div>
         <div className={styles.pric}>
-          <center><p>Total Price: ${price}</p></center>
+        <center><p>Total Price: <span style={{color:"red"}}>${price}</span></p></center>
         </div>
         <center><button type="submit" className={styles.sub}>Place Order</button></center>
       </div>

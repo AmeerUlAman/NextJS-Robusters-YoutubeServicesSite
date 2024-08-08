@@ -5,11 +5,16 @@
 }
 
 .ser {
+  margin-top: 70px;
   font-size: 67px;
-  padding: 37px;
-  color: rgb(255, 255, 255);
+ 
+  color: rgb(255, 0, 0);
 }
-
+.pp
+{
+  margin-top:17px;
+  margin-bottom: 25px;
+}
 .cbox {
   display: flex;
   flex-wrap: wrap;

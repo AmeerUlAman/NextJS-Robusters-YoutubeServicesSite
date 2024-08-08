@@ -21,13 +21,14 @@
   background-position: center;
   background-size: cover;
   border: 2px solid rgb(255, 255, 255);
-background-color: rgb(169, 123, 123);
+background-color: cyan;
   padding: 25px;
   border-radius: 50%;
   width: 50px;
   height: 50px;
   overflow: visible;
   transition: background-color 0.3s; 
+  filter: invert(1);
 }
  
 .imag {
@@ -42,7 +43,7 @@ background-color: rgb(169, 123, 123);
   padding: 14px;
   font-weight: bolder;
   text-align: center;
-  color: rgb(180, 14, 14);
+  color: rgb(231, 19, 19);
 }
 
 .paras {
@@ -52,7 +53,7 @@ background-color: rgb(169, 123, 123);
 }
 
 .card:hover {
-  transform: scale(1.25, 1.25);
+  transform: scale(1.1, 1.1);
   /* box-shadow: 0px 12px 12px rgba(255, 250, 250, 0.873); */
   background-color: rgb(203, 23, 23);
 }
@@ -68,7 +69,8 @@ background-color: rgb(169, 123, 123);
 }
 
 .card:hover .images {
-  background-color: rgb(220, 228, 82);
+  background-color: rgb(255, 255, 255);
+  filter: invert(0);
 }
 
 @media (max-width: 900px) {

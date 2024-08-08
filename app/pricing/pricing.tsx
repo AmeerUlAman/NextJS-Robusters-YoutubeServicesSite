@@ -6,7 +6,7 @@ import styles from './page.module.css';
 
  const Pricing =()=> {
   return ( <div  id='pricing'>  
-       <center><h1  style={{color:'black',padding:"40px",fontSize:"67px",marginTop:"35px"}}>Pricing</h1></center>
+       <center><h1  className={styles.heading}>Pricing</h1></center>
   <div className={styles.frex} >
     <Longform />
     <Shortform />

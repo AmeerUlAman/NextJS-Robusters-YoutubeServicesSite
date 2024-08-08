@@ -6,17 +6,17 @@ const Monet = () => {
     <div>
         <div className={styles.bg} >
             <div className={styles.nin}> 
-<center><h1 className={styles.title}>Monetizing Package</h1></center>
+<center><h1 className={styles.title}>Monetization</h1></center>
      
-<p className={styles.tick}>&#10003; Starting a new channel from scratch</p>  
-<p className={styles.tick}>&#10003; Uploading quality videos till channel is monetized organically</p>  
-<p className={styles.tick}>&#10003; Dedicated channel manager</p>  
-<p className={styles.tick}>&#10003; Youtube strategist</p>    
-<p className={styles.tick}>&#10003; Branded channel</p>  
-<p className={styles.tick}>&#10003; Visual dashboard</p>  
-<p className={styles.tick}>&#10003; Communication with team</p>  
-<p className={styles.tick}>&#10003; Niche research</p>  
-<p className={styles.tick}>&#10003; End to end management</p> </div> 
+<p className={styles.tick}><span style={{color:'red',fontSize:"large"}}>&#10003;</span> Starting a new channel from scratch</p>  
+<p className={styles.tick}><span style={{color:'red',fontSize:"large"}}>&#10003;</span> Uploading quality videos till channel is monetized organically</p>  
+<p className={styles.tick}><span style={{color:'red',fontSize:"large"}}>&#10003;</span> Dedicated channel manager</p>  
+<p className={styles.tick}><span style={{color:'red',fontSize:"large"}}>&#10003;</span> Youtube strategist</p>    
+<p className={styles.tick}><span style={{color:'red',fontSize:"large"}}>&#10003;</span> Branded channel</p>  
+<p className={styles.tick}><span style={{color:'red',fontSize:"large"}}>&#10003;</span> Visual dashboard</p>  
+<p className={styles.tick}><span style={{color:'red',fontSize:"large"}}>&#10003;</span> Communication with team</p>  
+<p className={styles.tick}><span style={{color:'red',fontSize:"large"}}>&#10003;</span> Niche research</p>  
+<p className={styles.tick}><span style={{color:'red',fontSize:"large"}}>&#10003;</span> End to end management</p> </div> 
 
 <div className={styles.ten}></div>
 <center><button type="submit" className={styles.sub}  >Contact Us</button></center>

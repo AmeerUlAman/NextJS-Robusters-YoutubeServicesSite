@@ -16,11 +16,11 @@ const TierCard: React.FC<ProjectCardProps> = ({  title, description, webUrl,but,
     <div className={styles.card}>
      
       <div className={styles.content}>
-       
-    <center><h2 className={styles.title}>{title}</h2></center>    
-       <center><p className={styles.description}>{description}</p></center> 
+     
+     <h2 className={styles.title}>{title}</h2>    
+       <p className={styles.description}>{description}</p> 
     
-    <center><button className={styles.butst} id={butid}>{but}</button></center>  
+     <button className={styles.butst} id={butid}>{but}</button>   
       </div>
       <div className={styles.image}>
         <iframe width="100%" height="100%" src={webUrl} title="YouTube video player"  className={styles.ifr}   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  ></iframe>

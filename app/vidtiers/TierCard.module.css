@@ -15,6 +15,12 @@
   height: 300px;
   transition: all 0.3s ease-in-out;
  background-color: rgb(43, 42, 42);
+ cursor: pointer;
+}
+.card:hover{
+  transition: all 0.3s ease-in-out;
+ background-color: rgb(12, 12, 12);
+  scale: 1.01;
 }
 
 .image {
@@ -40,15 +46,19 @@
 }
 
 .title {
+  padding: 10px;
+  margin: 13px;
   margin-top: 20px;
+
   font-size: 40px;
   color: rgb(255, 1, 1);
 }
 
 .description {
-  margin: 20px 0;
-  
-  font-size: larger;
+   width: 60%;
+  padding: 10px;
+  margin: 13px;
+  font-size: medium;
   color:white;
 
 
@@ -62,7 +72,7 @@
   background-color: white;
   border: 3px solid black;
   font-size: larger;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  /* box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); */
   transition: all 0.3s ease-in-out;
 }
 
@@ -120,13 +130,13 @@
 
 .heading {
   font-size: 67px;
-  color: rgb(255, 255, 255);
+  color: rgb(255, 0, 0);
   padding: 20px;
 }
 .pp{
   font-size: large;
 
-margin-bottom: 100px;
+margin-bottom: 25px;
 }
 
 @media (max-width: 600px) {
