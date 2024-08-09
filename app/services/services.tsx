@@ -54,7 +54,7 @@ const Services = () => {
   return (
  <div id="services">
     <div className={styles.bg}>  
-  <center><h1 className={styles.ser}>Services</h1></center>
+  <center><h1 className={styles.ser}><span style={{backgroundColor:"red",padding:"7px",borderRadius:"14px"}}>Services</span></h1></center>
   <center><p className={styles.pp} style={{color:"white"}}>What we offer in our sevices are a vast amount of options for one to select</p></center>
    <div className={styles.cbox}>
       {CardData.map((card,index)=>(

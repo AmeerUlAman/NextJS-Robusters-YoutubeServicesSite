@@ -5,7 +5,7 @@ const Vidtier=()=>{
   return (
     <div id="vidtiers">
       <div className={styles.extmar}></div>
-      <center><h1 className={styles.heading}>Our Videos</h1></center>
+      <center><h1 className={styles.heading}><span style={{backgroundColor:"red",padding:"14px",borderRadius:"9px"}}>Our Videos</span></h1></center>
  
      <center><p className={styles.pp} style={{color:"white"}}>Every YouTube channel has unique requirements. That's why we offer three tiers of
      video quality to suit your specific needs and budget.</p></center>

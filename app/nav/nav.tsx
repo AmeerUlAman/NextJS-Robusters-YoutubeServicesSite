@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import styles from './nav.module.css';
-
+import Image from 'next/image';
 const Nav = () => {
   const [activeSection, setActiveSection] = useState('hero');
 
@@ -39,11 +39,21 @@ const Nav = () => {
   return (
     <nav className={styles.navbar}>
       <ul className={styles.navList}>
+      <li className={`${styles.navItem} ${activeSection === 'her' ? styles.active : ''}`} id='ima'>
+          <a href="#her"><Image 
+          width={80}
+          height={10}
+          src={'/file.png'}
+          alt='LOG'
+          quality={100}
+          className={styles.img}
+          /></a>
+        </li>
         <li className={`${styles.navItem} ${activeSection === 'hero' ? styles.active : ''}`}>
           <a href="#hero">Home</a>
         </li>
         <li className={`${styles.navItem} ${activeSection === 'vidtiers' ? styles.active : ''}`}>
-          <a href="#vidtiers">Tiers</a>
+          <a href="#vidtiers">Videos</a>
         </li>
         <li className={`${styles.navItem} ${activeSection === 'services' ? styles.active : ''}`}>
           <a href="#services">Services</a>

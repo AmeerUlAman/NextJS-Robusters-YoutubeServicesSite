@@ -17,7 +17,7 @@ export default function Home() {
   <div className="nbg">
 <Nav/>
   <center>
-     <Image   width={1920}   height={1080}   quality={100} alt="LOGO"  src={'/logoorg.png'}  className='logo' />
+     <Image   width={1920}   height={1080}   quality={100} alt="LOGO"  src={'/logoorg.png'}  className='logo' id="her"/>
 </center>
 <Hero2/>
 <Vidtier/>

@@ -1,14 +1,16 @@
 .bg {
   border-radius: 17px;
   width: 85%;
-  margin: 0 auto;
+  margin:100px auto;
+
 }
 
 .ser {
   margin-top: 70px;
   font-size: 67px;
  
-  color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  text-decoration: underline red;
 }
 .pp
 {

@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Wwwu = () => {
   return (
-    <div style={{marginTop:"95px"}} id='wwwu'>   <h2 className={styles.h2} >Why Work With Us</h2>
+    <div style={{marginTop:"95px"}} id='wwwu'>   <h2 className={styles.h2} ><span style={{backgroundColor:"red",padding:"7px",borderRadius:"14px"}}>Why Work With Us</span></h2>
      <center><p className={styles.pp} style={{color:"white"}}>Working with us has its own perks</p></center>
     <div className={styles.container} >
       <div className={styles.fi}>

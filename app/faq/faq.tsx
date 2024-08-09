@@ -4,7 +4,7 @@ import styles from './faq.module.css';
 const Faq = () => {
   return (
     <div id='faq' style={{marginTop:'75px'}}>
-      <center><h2 className={styles.h2}>FAQ</h2></center>  
+      <center><h2 className={styles.h2}><span style={{backgroundColor:"red",padding:"7px",borderRadius:"9px"}}>FAQ</span></h2></center>  
     <div className={styles.container}>
     
       <div className={styles.question} >
